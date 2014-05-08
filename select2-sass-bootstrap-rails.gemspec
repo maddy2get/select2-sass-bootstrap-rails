@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
-  gem.add_dependency "bootstrap-sass", "~> 2.3"
+  gem.add_dependency "bootstrap-sass", "~> 3.1.1"
   gem.add_dependency "sass-rails"
   gem.add_dependency "select2-rails"
 end
